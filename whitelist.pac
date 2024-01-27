@@ -1,9 +1,10 @@
 // if false, use proxy[0] by default,
 // edit function loadBalance to change it!
-var okToLoadBalance = false;
+var okToLoadBalance = true;
 
 var proxy = [
     // add more proxies to load-balance!
+     "SOCKS5 127.0.0.1:20808; HTTP 127.0.0.1:20809",
      "SOCKS5 127.0.0.1:10808; HTTP 127.0.0.1:10809"
 ];
 
