@@ -4,9 +4,9 @@ var okToLoadBalance = false;
 
 var proxy = [
     // add more proxies to load-balance!
-     "HTTP 127.0.0.1:20809; HTTPS 127.0.0.1:20809",
-     "HTTP 127.0.0.1:10809; HTTPS 127.0.0.1:10809",
-     "HTTP 127.0.0.1:8118; HTTPS 127.0.0.1:8118"
+     "PROXY 127.0.0.1:20809; PROXY 127.0.0.1:20809",
+     "PROXY 127.0.0.1:10809; PROXY 127.0.0.1:10809",
+     "PROXY 127.0.0.1:8118; PROXY 127.0.0.1:8118"
 ];
 
 var direct = "DIRECT";
